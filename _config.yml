@@ -6,8 +6,8 @@ url: "https://imngui.github.io/" # the base hostname & protocol for your site e.
 
 # User settings
 username: Isaac Ngui
-user_description: I am a Ph.D. student at the University of Illinois at Urbana-Champaign who joined Dr. Nancy Amato's lab in Fall 2020. I graduated from the University of Wisconsin Milwaukee where I majored in computer science and minored in math.
-user_title: Computer Science Ph.D. Student
+user_description: I am a Computer Science Ph.D. student in the Parasol Lab at the University of Illinois Urbana-Champaign, advised by Prof. Nancy M. Amato. I build extended reality (XR) systems that let people specify and teach robot behavior by editing the robot's environment rather than the robot itself, and I develop the planning and learning methods behind them, from preference learning to scalable multi-robot motion planning. I received my B.S. in Computer Science, with a minor in Mathematics, from the University of Wisconsin–Milwaukee.
+user_title: Robotics &middot; Human-Robot Interaction &middot; Extended Reality
 email: ingui2@illinois.edu
 # twitter_username: lorem_ipsum
 github_username:  imngui

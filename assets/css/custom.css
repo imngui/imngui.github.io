@@ -1,0 +1,26 @@
+/* Additions for the 2026 content update; complements the compiled main.css */
+.bio { text-align: left; max-width: 820px; margin: 1em auto; font-size: 1.05rem; }
+
+.user .tech h2 { font-size: 1.35rem; }
+
+.skills h1 { margin-bottom: 0.3em; }
+.skill-list, .tags { list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.skill-list li { border: 1px solid #54516A; border-radius: 16px; padding: 4px 14px; font-size: 0.95rem; color: #1a222c; }
+
+.project-grid { display: grid; grid-template-columns: 1fr; gap: 24px; margin: 10px 0 30px; }
+@media only screen and (min-width: 800px) { .project-grid { grid-template-columns: 1fr 1fr; } }
+.project-card { border: 1px solid #ddd; border-radius: 8px; padding: 22px 24px; background: #fff; box-shadow: 0 2px 8px rgba(26,34,44,0.06); }
+.project-card h3 { margin: 0.3em 0 0.2em; padding-top: 0; font-size: 1.25rem; }
+.project-card p { font-size: 0.98rem; }
+.project-card .project-link { margin-right: 8px; padding: 5px 12px; }
+.venue { display: inline-block; background: #54516A; color: #fff; font-size: 0.8rem; padding: 2px 10px; border-radius: 10px; letter-spacing: 0.03em; }
+.tags { justify-content: flex-start; margin: 0.6em 0; gap: 6px; }
+.tags li { background: #eef0f3; color: #4B5664; font-size: 0.8rem; padding: 2px 9px; border-radius: 4px; }
+
+#publications { width: 90%; max-width: 960px; margin: 0 auto 40px; }
+@media only screen and (min-width: 550px) { #publications { width: 80%; } }
+.pub-note { font-size: 0.85rem; margin-top: 0; }
+.pub-list { padding-left: 1.5em; }
+.pub-list li { margin-bottom: 1.1em; font-size: 0.98rem; }
+.pub-title { color: #1a222c; font-weight: bold; }
+.pub-list a { color: #54516A; font-size: 0.9rem; margin-left: 4px; }

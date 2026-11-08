@@ -1,29 +1,38 @@
 <div class="user-details">
-  <h1> Research </h1>
+  <h1>Research</h1>
 </div>
-<div class="user-projects">
-  <!-- <div class="images-right">
-    <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
+
+<div class="project-grid">
+  <div class="project-card">
+    <span class="venue">ICAT-EGVE 2026</span>
+    <h3>ERUPT: Extended Reality Universal Planning Toolkit</h3>
+    <ul class="tags"><li>Unity</li><li>ROS 2</li><li>MoveIt</li><li>Meta Quest 3</li></ul>
+    <p>An open-source XR toolkit for interactive motion planning. Users create, scale, and move obstacles with their hands. Edits sync to the MoveIt planning scene in about 40&nbsp;ms, and planned trajectories can be previewed in VR/AR before running on a physical UR5e. A pre-registered user study comparing ERUPT with the 2D MoveIt/RViz interface is underway.</p>
+    <a class="project-link" target="_blank" href="https://github.com/parasollab/erupt">Code</a>
   </div>
-  <div class="contents">
-    <h3> Project Title </h3>
-    <ul>
-      <li> Featured Skills</li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+
+  <div class="project-card">
+    <span class="venue">WAFR 2026</span>
+    <h3>CIPHER: Scalable Multi-Robot Motion Planning</h3>
+    <ul class="tags"><li>C++</li><li>OMPL</li><li>MAPF</li><li>Kinodynamic planning</li></ul>
+    <p>A hierarchical multi-robot planner that coordinates robots through a workspace decomposition and refines it wherever conflicts arise, so it rarely has to plan in the expensive joint space of all robots. It solved 100% of benchmark problems with up to 32 robots and was up to an order of magnitude faster than state-of-the-art baselines.</p>
+    <a class="project-link" target="_blank" href="https://parasollab.github.io/research-pages/cipher/">Project Page</a>
+    <a class="project-link" target="_blank" href="https://github.com/parasollab/cipher">Code</a>
   </div>
-</div>
-<div class="user-projects">
-  <div class="images-left">
-    <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
+
+  <div class="project-card">
+    <span class="venue">CoRL 2026 Workshop</span>
+    <h3>FERRET: Environment Edits as a Corrective Signal</h3>
+    <ul class="tags"><li>PyTorch</li><li>Graph neural networks</li><li>Reward learning</li></ul>
+    <p>When a person drags a robot arm away from a laptop, the robot can't tell which of many changes they meant. FERRET lets people edit the scene instead while the robot's motion stays fixed. It learns preferences from both scene and robot edits using relational and graph neural network models, and recovers features that robot corrections alone cannot.</p>
   </div>
-  <div class="contents-right">
-    <h3> Project Title </h3>
-    <ul>
-      <li> Featured Skills</li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
-  </div> -->
+
+  <div class="project-card">
+    <span class="venue">IEEE VR 2025 Workshops</span>
+    <h3>RADER: Robot Action Demonstration in XR</h3>
+    <ul class="tags"><li>Unity</li><li>ROS 2</li><li>Learning from demonstration</li></ul>
+    <p>An XR interface for teaching robots by demonstration with a virtual arm. Users can safely show the high-cost states that are dangerous to demonstrate on real hardware. Features learned from XR demonstrations matched those learned from demonstrations on a physical UR5e.</p>
+    <a class="project-link" target="_blank" href="https://arxiv.org/abs/2409.12862">Paper</a>
+    <a class="project-link" target="_blank" href="https://github.com/parasollab/RADER">Code</a>
+  </div>
 </div>
